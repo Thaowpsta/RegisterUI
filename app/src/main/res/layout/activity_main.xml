@@ -47,7 +47,8 @@
             android:inputType="phone"
             android:paddingStart="15dp"
             android:textAlignment="viewStart"
-            android:textColorHint="@color/orange" />
+            android:textColorHint="@color/orange"
+            android:textCursorDrawable="@color/orange"/>
 
         <EditText
             android:id="@+id/password"
@@ -60,7 +61,8 @@
             android:paddingStart="15dp"
             android:textAlignment="viewStart"
             android:textColorHint="@color/orange"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            android:textCursorDrawable="@color/orange"/>
 
     </LinearLayout>
 
